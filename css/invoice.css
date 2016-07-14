@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+#print
+{
+	width:524px !important;
+	height:717px !important;
+	background-image: url(../img/bg_invoice.png)
+}
+#topinvoice
+{
+	widows:524px;
+	height:110px;
+}
+#imgtopinvoice
+{
+	padding-right:15px;
+}
+#topictopinvoice
+{
+	font-size:25px;
+	font-weight:bold;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#333;
+	left:0px
+}
+#topictopinvoice2
+{
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+#cotopinvoice
+{
+		padding-left:15px;
+}
+#namecotopinvoice
+{
+	font-size:25px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#addcotopinvoice
+{
+	font-size:14px;
+	font-family:"MS Serif", "New York", serif;
+}
+#userictopinvoice
+{
+	font-size:11px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:40px;
+	float:left;
+
+}
+#userictopinvoice2
+{
+	font-size:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding-top:4px;
+	padding-right:6px;
+	float:right;
+	line-height:150%;
+
+}
+#inlisy{
+	
+position:absolute;
+top:252px;
+left:3px;
+
+}
+#inlisy2{
+	
+position:absolute;
+top:285px;
+left:3px;
+border:thick #009;
+
+}
+#tbinlisy{
+border-collapse:collapse;
+
+
+	
+}
+
+
+#tbinlisy td {
+	max-width:880px;
+}
+@media print {
+
+@page {size: 524px 717px landscape}
+
+}
+
+
+
+

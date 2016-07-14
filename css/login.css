@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 13pt;
+	line-height: 1.75em;
+	background-color:#FFFFFF;
+	color: #3D3B3B;
+	padding:150px;
+	background-image: url(../img/logo.png); 
+	background-repeat: no-repeat; 
+	background-position: left top; 
+	background-size:30% 30%;
+}
+#login {
+	margin:0 auto;
+	width:550px;
+	border: 2px solid #503e1b;
+	padding:40px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	color:#000066;
+	z-index:1;
+}
+#login input[type="text"], input[type="password"] {
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	color:#333399;
+	margin-bottom: 5px;
+	display: block;
+	padding: 4px;
+	border: solid 1px #85b1de;
+	width: 200px;
+}
+#a1 {
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	color:#333399;
+	margin-bottom: 5px;
+	padding: 4px;
+	border: solid 1px #85b1de;
+	width: 160px;
+}
+.style2 {
+	color: #666666;
+	font-style: italic;
+}
+.style3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #333333;
+	font-style: italic;
+}
+.style4 {
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#F00;
+}
